@@ -34,7 +34,7 @@ public class phuongtrinhbac2 {
     else if(deltal == 0){
         System.out.println("phuong trinh co nghiem kep" );
         x1=x2=-b/(2*a);
-        System.out.println("vay phuong yrinh co nghiem kep la x1=x2 :" + x1);
+        System.out.println("vay phuong trinh co nghiem kep la x1=x2 :" + x1);
     }
     else{
         System.out.println("phuong trinh vo nghiem ");
