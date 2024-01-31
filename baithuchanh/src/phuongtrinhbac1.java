@@ -18,4 +18,4 @@ public class phuongtrinhbac1 {
          System.out.println("phuong trinh in ra la" + phuongTrinh);
     }
    
-        }
+ }
