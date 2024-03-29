@@ -39,18 +39,16 @@ public class employee extends Person {
         Fulltime ft = new Fulltime();
         ft.xuatTen();
         ft.nhapThongTinnv();
-        ft.TinhTuoi();
-        ft.inThongTinnv();
         ft.nhapLuong();
+        ft.inThongTinnv();
         ft.TinhLuong();
         ft.inLuongThang();
         //luong Parttime
         Parttime pt = new Parttime();
         pt.xuatTen();
         pt.nhapThongTinnv();
-        pt.TinhTuoi();
-        pt.inThongTinnv();
         pt.nhapSoNgayLamViec();
+        pt.inThongTinnv();
         pt.TinhLuong();
         pt.inLuongThang();
     }

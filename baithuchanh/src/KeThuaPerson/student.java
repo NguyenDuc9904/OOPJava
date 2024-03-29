@@ -14,7 +14,16 @@ public class student extends Person {
     }
     public void inThongTinsv(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("ma sinh vien : " + masv);
-        System.out.print("khoa : " + khoa);
+        System.out.println("ma sinh vien : " + masv);
+        System.out.println("khoa : " + khoa);
     }
+
+    public static void main(String[] args) {
+        student st = new student();
+        st.nhapThongTin();
+        st.nhapThongTinsv();
+        st.TinhTuoi();
+        st.inThongTin();
+        st.inThongTinsv();
+}
 }
