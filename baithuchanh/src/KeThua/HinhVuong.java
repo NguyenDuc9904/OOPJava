@@ -18,3 +18,4 @@ public class HinhVuong extends HinhChuNhat {
         DienTich = chieuDai*chieuDai;
     }
 }
+ 
